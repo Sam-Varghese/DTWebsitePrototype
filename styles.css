@@ -1,0 +1,158 @@
+h1 {
+  font-size: 2.5vw;
+}
+
+.navBar {
+  display: flex;
+  flex-direction: row;
+  background-color: aqua;
+  justify-content: space-between;
+  align-items: center;
+  /* position: fixed; */
+  text-decoration: none;
+  width: 100vw;
+}
+
+.menuItem {
+  padding: 1vw;
+  margin: 1vw;
+  /* background-color: rgb(97, 245, 11); */
+  font-size: 1.5vw;
+  color: black;
+  /* border: 0.5vw solid black; */
+  border-radius: 0.5vw;
+  transition: all;
+  text-decoration: none;
+  transition-duration: 0.5s;
+}
+
+.menuItem a {
+  text-decoration: none;
+}
+
+.menuItem:hover {
+  background-color: rgb(199, 18, 199);
+  text-decoration: none;
+  color: white;
+}
+
+.taskDiv {
+  background-color: rgb(219, 210, 233);
+  padding: 2vw;
+  margin: 1vw;
+  border: 0.5vw solid black;
+  border-radius: 0.5vw;
+}
+
+.taskName {
+  display: flex;
+  justify-content: center;
+  font-size: 1.5vw;
+  color: white;
+  background-color: rgba(245, 3, 76, 0.5);
+  padding: 1vw;
+  border-radius: 0.5vw;
+  font-weight: 500;
+}
+
+.taskName img {
+  width: 2vw;
+  padding-left: 1vw;
+}
+
+.taskTime {
+  display: flex;
+  justify-content: flex-start;
+  font-size: 1vw;
+  background-color: rgb(181, 173, 223);
+  padding: 1vw;
+  border-radius: 0.5vw;
+  margin: 1vw;
+}
+
+.taskTime img {
+  width: 1vw;
+  padding-right: 0.5vw;
+}
+
+.taskLocation {
+  display: flex;
+  justify-content: flex-start;
+  font-size: 1vw;
+  padding: 1vw;
+  border-radius: 0.5vw;
+  background-color: rgb(181, 173, 223);
+  margin: 1vw;
+}
+
+.taskLocation img {
+  width: 1vw;
+  padding-right: 1vw;
+}
+
+.taskDescription {
+  font-size: 1vw;
+  background-color: rgb(181, 173, 223);
+  padding: 1vw;
+  display: flex;
+  border-radius: 0.5vw;
+  justify-content: flex-start;
+  margin: 1vw;
+}
+
+.taskDescription img {
+  width: 1vw;
+  padding-right: 1vw;
+}
+
+.headingLogo {
+    display: absolute;
+  /* width: 30vw; */
+  /* border: 2px solid red; */
+  /* height: 25vh; */
+}
+
+body {
+  text-decoration: none;
+}
+
+.formDiv {
+}
+
+.logoDiv {
+  display: absolute;
+  border: 2px solid red;
+}
+
+.formDiv{
+  display: flex;
+  justify-content: center;
+  background-image: linear-gradient(rgb(162, 243, 12), pink, rgb(236, 240, 17));
+  width: 50%;
+  margin: 1vw;
+  padding: 1vw;
+}
+
+.formDiv label{
+  display: inline-block;
+  font-size: 1vw;
+  width: 10vw;
+}
+
+.formDiv input {
+  font-size: 1vw;
+  padding: 0.5vw;
+  margin: 0.5vw;
+  justify-content: flex-end;
+}
+
+.formDiv select {
+  font-size: 1vw;
+  padding: 0.5vw;
+  margin: 0.5vw;
+  justify-content: flex-end;
+  border-radius: 0.5vw;
+}
+a:link{
+  text-decoration: none!important;
+}
